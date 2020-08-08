@@ -2,7 +2,7 @@
 
 set -e
 
-REPOSITORY_URL="https://github.com/OpenSlides/OpenSlides.git"
+REPOSITORY_URL="https://github.com/BooCrew/OpenSlides.git"
 GIT_CHECKOUT="master"
 DOCKER_REPOSITORY="openslides"
 DOCKER_TAG="latest"
