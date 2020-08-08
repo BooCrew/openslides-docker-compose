@@ -49,7 +49,7 @@ RUN apt-get install --no-install-recommends -y \
 
 # Clone OpenSlides repo
 USER openslides
-ARG REPOSITORY_URL=https://github.com/OpenSlides/OpenSlides.git
+ARG REPOSITORY_URL=https://github.com/BooCrew/OpenSlides.git
 ARG GIT_CHECKOUT=master
 RUN git clone --no-checkout -- $REPOSITORY_URL . && \
       git checkout $GIT_CHECKOUT
